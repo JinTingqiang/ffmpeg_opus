@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/MyQmlApp">
+    <file alias="qmldir">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp/qmldir</file>
+  </qresource>
+</RCC>
+

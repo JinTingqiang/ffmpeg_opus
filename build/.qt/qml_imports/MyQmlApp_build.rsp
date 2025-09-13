@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus
+-cmake-output
+-output-file
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/qml_imports/MyQmlApp_build.cmake
+-importPath
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp
+-importPath
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build
+-importPath
+C:/Qt/6.9.2/msvc2022_64/qml
+-qrcFiles
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/rcc/qmake_MyQmlApp.qrc
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/rcc/MyQmlApp_raw_qml_0.qrc

@@ -1,0 +1,9 @@
+
+set(target "MyQmlApp")
+set(working_dir "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus")
+set(src_and_dest_list
+    "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/main.qml"
+    "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp/qml/main.qml"
+
+)
+set(timestamp_file "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/MyQmlApp_qml.txt")

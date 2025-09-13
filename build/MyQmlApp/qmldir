@@ -1,0 +1,5 @@
+module MyQmlApp
+typeinfo MyQmlApp.qmltypes
+prefer :/MyQmlApp/
+depends QtQuick
+

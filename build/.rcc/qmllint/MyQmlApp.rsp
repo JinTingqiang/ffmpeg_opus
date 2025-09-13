@@ -1,0 +1,10 @@
+--bare
+-I
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build
+-I
+C:/Qt/6.9.2/msvc2022_64/qml
+--resource
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/rcc/qmake_MyQmlApp.qrc
+--resource
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/rcc/MyQmlApp_raw_qml_0.qrc
+C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/main.qml
