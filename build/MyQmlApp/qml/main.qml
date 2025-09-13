@@ -5,17 +5,18 @@ import QtQuick.Layouts 1.15
 import QtQuick.Controls.Material 2.15
 
 ApplicationWindow {
+    id: root
     visible: true
     width: 800
     height: 600
-    title: qsTr("FFmpeg 工具面板")
+    title: qsTr("FFmpeg Opus")
 
     RowLayout {
         anchors.fill: parent
 
         // 左侧菜单栏
         Rectangle {
-            width: 120
+            width: 200
             color: "#f5f5f5"
             Layout.fillHeight: true
             border.color: "#dcdcdc"
@@ -31,11 +32,10 @@ ApplicationWindow {
                     text: "首页"
                     width: parent.width
                     Layout.fillWidth: true
-                    height: 40
+                    implicitHeight: 40
                     checkable: true
                     autoExclusive: true
                     focusPolicy: Qt.StrongFocus
-
 
                     background: Rectangle {
                         anchors.fill: parent
@@ -47,17 +47,29 @@ ApplicationWindow {
                                                 : "transparent"
                     }
 
-                    // 👇 自定义内容，文字靠左
-                    contentItem: Text {
-                        text: parent.text
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.left: parent.left
-                        anchors.leftMargin: 10   // 左边留点间距
-                        font.pixelSize: 20
-                        font.family: "Microsoft YaHei"
-                        color: "#000000"
-                        verticalAlignment: Text.AlignVCenter
-                        horizontalAlignment: Text.AlignLeft
+                    // 👇 自定义内容
+                    contentItem: Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 10
+                        spacing: 40
+                        height: parent.height   // 👈 让 Row 和按钮一样高
+
+                        Image {
+                            source: "qrc:/res/home.png"
+                            width: 24
+                            height: 24
+                            fillMode: Image.PreserveAspectFit
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
+
+                        Text {
+                            text: navBtn1.text
+                            font.pixelSize: 18
+                            font.family: "Microsoft YaHei"
+                            color: "#000000"
+                            verticalAlignment: Text.AlignVCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
                     }
 
                     onClicked: console.log("点击了 首页")
@@ -68,7 +80,7 @@ ApplicationWindow {
                     text: "ffprobe"
                     width: parent.width
                     Layout.fillWidth: true
-                    height: 40
+                    implicitHeight: 40
                     checkable: true
                     autoExclusive: true
                     focusPolicy: Qt.StrongFocus
@@ -84,17 +96,29 @@ ApplicationWindow {
                                                 : "transparent"
                     }
 
-                    // 👇 自定义内容，文字靠左
-                    contentItem: Text {
-                        text: parent.text
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.left: parent.left
-                        anchors.leftMargin: 10   // 左边留点间距
-                        font.pixelSize: 20
-                        font.family: "Microsoft YaHei"
-                        color: "#000000"
-                        verticalAlignment: Text.AlignVCenter
-                        horizontalAlignment: Text.AlignLeft
+                    // 👇 自定义内容
+                    contentItem: Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 10
+                        spacing: 40
+                        height: parent.height   // 👈 让 Row 和按钮一样高
+
+                        Image {
+                            source: "qrc:/res/ffprobe.png"
+                            width: 24
+                            height: 24
+                            fillMode: Image.PreserveAspectFit
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
+
+                        Text {
+                            text: navBtn2.text
+                            font.pixelSize: 18
+                            font.family: "Microsoft YaHei"
+                            color: "#000000"
+                            verticalAlignment: Text.AlignVCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
                     }
 
                     onClicked: console.log("点击了 ffprobe")
@@ -106,7 +130,7 @@ ApplicationWindow {
                     text: "ffplay"
                     width: parent.width
                     Layout.fillWidth: true
-                    height: 40
+                    implicitHeight: 40
                     checkable: true
                     autoExclusive: true
                     focusPolicy: Qt.StrongFocus
@@ -122,17 +146,32 @@ ApplicationWindow {
                                                 : "transparent"
                     }
 
-                    contentItem: Text {
-                        text: parent.text
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.left: parent.left
+                    // 👇 自定义内容：图标 + 文字
+                    contentItem: Row {
+                        anchors.fill: parent
                         anchors.leftMargin: 10
-                        font.pixelSize: 20
-                        font.family: "Microsoft YaHei"
-                        color: "#000000"
-                        verticalAlignment: Text.AlignVCenter
-                        horizontalAlignment: Text.AlignLeft
+                        spacing: 40
+                        height: parent.height   // 👈 让 Row 和按钮一样高
+
+                        Image {
+                            source: "qrc:/res/ffplay.png"
+                            width: 24
+                            height: 24
+                            fillMode: Image.PreserveAspectFit
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
+
+                        Text {
+                            text: navBtn3.text
+                            font.pixelSize: 18
+                            font.family: "Microsoft YaHei"
+                            color: "#000000"
+                            verticalAlignment: Text.AlignVCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
                     }
+
+                    onClicked: console.log("点击了 首页")
                 }
 
                 // ffmpeg
@@ -141,7 +180,7 @@ ApplicationWindow {
                     text: "ffmpeg"
                     width: parent.width
                     Layout.fillWidth: true
-                    height: 40
+                    implicitHeight: 40
                     checkable: true
                     autoExclusive: true
                     focusPolicy: Qt.StrongFocus
@@ -157,17 +196,32 @@ ApplicationWindow {
                                                 : "transparent"
                     }
 
-                    contentItem: Text {
-                        text: parent.text
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.left: parent.left
+                    // 👇 自定义内容：图标 + 文字
+                    contentItem: Row {
+                        anchors.fill: parent
                         anchors.leftMargin: 10
-                        font.pixelSize: 20
-                        font.family: "Microsoft YaHei"
-                        color: "#000000"
-                        verticalAlignment: Text.AlignVCenter
-                        horizontalAlignment: Text.AlignLeft
+                        spacing: 40
+                        height: parent.height   // 👈 让 Row 和按钮一样高
+
+                        Image {
+                            source: "qrc:/res/ffmpeg.png"
+                            width: 24
+                            height: 24
+                            fillMode: Image.PreserveAspectFit
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
+
+                        Text {
+                            text: navBtn4.text
+                            font.pixelSize: 18
+                            font.family: "Microsoft YaHei"
+                            color: "#000000"
+                            verticalAlignment: Text.AlignVCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
                     }
+
+                    onClicked: console.log("点击了 首页")
                 }
 
                 // 关于
@@ -176,7 +230,7 @@ ApplicationWindow {
                     text: "关于"
                     width: parent.width
                     Layout.fillWidth: true
-                    height: 40
+                    implicitHeight: 40
                     checkable: true
                     autoExclusive: true
                     focusPolicy: Qt.StrongFocus
@@ -192,17 +246,29 @@ ApplicationWindow {
                                                 : "transparent"
                     }
 
-                    // 👇 自定义内容，文字靠左
-                    contentItem: Text {
-                        text: parent.text
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.left: parent.left
-                        anchors.leftMargin: 10   // 左边留点间距
-                        font.pixelSize: 20
-                        font.family: "Microsoft YaHei"
-                        color: "#000000"
-                        verticalAlignment: Text.AlignVCenter   // 👈 保证垂直居中
-                        horizontalAlignment: Text.AlignLeft
+                    // 👇 自定义内容：图标 + 文字
+                    contentItem: Row {
+                        anchors.fill: parent
+                        anchors.leftMargin: 10
+                        spacing: 40
+                        height: parent.height   // 👈 让 Row 和按钮一样高
+
+                        Image {
+                            source: "qrc:/res/about.png"
+                            width: 24
+                            height: 24
+                            fillMode: Image.PreserveAspectFit
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
+
+                        Text {
+                            text: navBtn5.text
+                            font.pixelSize: 18
+                            font.family: "Microsoft YaHei"
+                            color: "#000000"
+                            verticalAlignment: Text.AlignVCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                        }
                     }
 
                     onClicked: console.log("点击了 关于")

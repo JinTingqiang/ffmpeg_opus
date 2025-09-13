@@ -18,9 +18,17 @@ find_package(Qt6 COMPONENTS Quick QuickControls2 REQUIRED)
 
 qt_standard_project_setup()
 
+qt_add_resources(APP_RESOURCES
+    res/resources.qrc
+)
+
 # 添加可执行文件
 qt_add_executable(MyQmlApp
     main.cpp
+)
+
+target_sources(MyQmlApp PRIVATE
+    ${APP_RESOURCES}
 )
 
 # 添加 QML 资源

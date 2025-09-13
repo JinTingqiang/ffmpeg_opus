@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>home.png</file>
+        <file>about.png</file>
+        <file>ffplay.png</file>
+        <file>ffmpeg.png</file>
+        <file>ffprobe.png</file>
+        <file>ffmpeg_ico.png</file>
+    </qresource>
+</RCC>

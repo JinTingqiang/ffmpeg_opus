@@ -5,6 +5,7 @@ import QtQuick.Controls 2.15
 Control {
     id: root
     property alias text: label.text
+    property url iconSource: ""
     property bool checked: false
 
     implicitWidth: 120
@@ -19,12 +20,16 @@ Control {
                              : "transparent"
     }
 
-    contentItem: Text {
-        id: label
+    contentItem: Row {
         anchors.centerIn: parent
-        font.pixelSize: 20
-        font.family: "Microsoft YaHei"
-        color: "#000000"
+        spacing: 6
+
+        Text {
+            id: label
+            font.pixelSize: 20
+            font.family: "Microsoft YaHei"
+            color: "#000000"
+        }
     }
 
     MouseArea {
