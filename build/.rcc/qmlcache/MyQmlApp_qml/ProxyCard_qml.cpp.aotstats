@@ -1,0 +1,268 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 343,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"verticalCenter\".",
+                        "functionName": "verticalCenter",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"right\".",
+                        "functionName": "right",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"rightMargin\".",
+                        "functionName": "rightMargin",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 78
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 83
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 383,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "text",
+                        "line": 88
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: checkItem",
+                        "functionName": "color",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 46,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "rightMargin",
+                        "line": 104
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 105
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: checkItem",
+                        "functionName": "visible",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 797,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 128
+                    }
+                ],
+                "filePath": "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/ProxyCard.qml"
+            }
+        ],
+        "moduleId": "MyQmlApp(MyQmlApp)"
+    }
+]

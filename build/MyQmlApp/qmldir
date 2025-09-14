@@ -1,5 +1,7 @@
 module MyQmlApp
 typeinfo MyQmlApp.qmltypes
 prefer :/MyQmlApp/
+ProxyCard 1.0 qml/ProxyCard.qml
+NavButton 1.0 qml/NavButton.qml
 depends QtQuick
 

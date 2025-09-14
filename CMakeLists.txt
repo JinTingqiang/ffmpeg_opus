@@ -36,7 +36,9 @@ qt_add_qml_module(MyQmlApp
     URI MyQmlApp
     VERSION 1.0
     QML_FILES
-        qml/main.qml
+    qml/main.qml
+    qml/ProxyCard.qml
+    qml/NavButton.qml
 )
 
 target_link_libraries(MyQmlApp

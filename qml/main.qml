@@ -16,7 +16,7 @@ ApplicationWindow {
 
         // 左侧菜单栏
         Rectangle {
-            width: 200
+            width: 220
             color: "#f5f5f5"
             Layout.fillHeight: true
             border.color: "#dcdcdc"
@@ -26,295 +26,239 @@ ApplicationWindow {
                 anchors.margins: 10
                 spacing: 15
 
+                // 👆 顶部 Logo + 应用名
+                   Row {
+                       width: parent.width
+                       height: 60
+                       spacing: 5
+                       anchors.horizontalCenter: parent.horizontalCenter
+
+                       Image {
+                           source: "qrc:/res/ffmpeg_ico.png"   // 你的软件图标
+                           width: 48
+                           height: 48
+                           fillMode: Image.PreserveAspectFit
+                           anchors.verticalCenter: parent.verticalCenter
+                       }
+
+                       Text {
+                           text: "FFmpeg Opus"   // 软件名
+                           font.pixelSize: 20
+                           font.bold: true
+                           font.family: "Microsoft YaHei"
+                           color: "#000000"
+                           anchors.verticalCenter: parent.verticalCenter
+                       }
+                   }
+
+                   Rectangle {    // 👇 分割线
+                       width: parent.width
+                       height: 1
+                       color: "#dcdcdc"
+                   }
+
+                // 使用封装自定义按钮
                 // 首页
-                Button {
-                    id: navBtn1
-                    text: "首页"
-                    width: parent.width
-                    Layout.fillWidth: true
-                    implicitHeight: 40
-                    checkable: true
-                    autoExclusive: true
-                    focusPolicy: Qt.StrongFocus
-
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: 6
-                        border.width: 0
-                        color: navBtn1.down ? "#c0d8ff"
-                             : navBtn1.checked ? "#d0e8ff"
-                             : navBtn1.hovered ? "#e0e0e0"
-                                                : "transparent"
+                NavButton {
+                    labelText: "首页"
+                    iconSource: "qrc:/res/home.png"
+                    onClicked: {
+                        stackLayout.currentIndex = 0
+                        console.log("点击了 首页")
                     }
-
-                    // 👇 自定义内容
-                    contentItem: Row {
-                        anchors.fill: parent
-                        anchors.leftMargin: 10
-                        spacing: 40
-                        height: parent.height   // 👈 让 Row 和按钮一样高
-
-                        Image {
-                            source: "qrc:/res/home.png"
-                            width: 24
-                            height: 24
-                            fillMode: Image.PreserveAspectFit
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-
-                        Text {
-                            text: navBtn1.text
-                            font.pixelSize: 18
-                            font.family: "Microsoft YaHei"
-                            color: "#000000"
-                            verticalAlignment: Text.AlignVCenter
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-
-                    onClicked: console.log("点击了 首页")
                 }
 
-                Button {
-                    id: navBtn2
-                    text: "ffprobe"
-                    width: parent.width
-                    Layout.fillWidth: true
-                    implicitHeight: 40
-                    checkable: true
-                    autoExclusive: true
-                    focusPolicy: Qt.StrongFocus
-
-
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: 6
-                        border.width: 0
-                        color: navBtn2.down ? "#c0d8ff"
-                             : navBtn2.checked ? "#d0e8ff"
-                             : navBtn2.hovered ? "#e0e0e0"
-                                                : "transparent"
+                // FFprobe
+                NavButton {
+                    labelText: "FFprobe"
+                    iconSource: "qrc:/res/ffprobe.png"
+                    onClicked: {
+                        console.log("点击了 FFprobe")
+                        stackLayout.currentIndex = 1
                     }
-
-                    // 👇 自定义内容
-                    contentItem: Row {
-                        anchors.fill: parent
-                        anchors.leftMargin: 10
-                        spacing: 40
-                        height: parent.height   // 👈 让 Row 和按钮一样高
-
-                        Image {
-                            source: "qrc:/res/ffprobe.png"
-                            width: 24
-                            height: 24
-                            fillMode: Image.PreserveAspectFit
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-
-                        Text {
-                            text: navBtn2.text
-                            font.pixelSize: 18
-                            font.family: "Microsoft YaHei"
-                            color: "#000000"
-                            verticalAlignment: Text.AlignVCenter
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-
-                    onClicked: console.log("点击了 ffprobe")
                 }
 
                 // ffplay
-                Button {
-                    id: navBtn3
-                    text: "ffplay"
-                    width: parent.width
-                    Layout.fillWidth: true
-                    implicitHeight: 40
-                    checkable: true
-                    autoExclusive: true
-                    focusPolicy: Qt.StrongFocus
-
-
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: 6
-                        border.width: 0
-                        color: navBtn3.down ? "#c0d8ff"
-                             : navBtn3.checked ? "#d0e8ff"
-                             : navBtn3.hovered ? "#e0e0e0"
-                                                : "transparent"
+                NavButton {
+                    labelText: "FFplay"
+                    iconSource: "qrc:/res/ffplay.png"
+                    onClicked: {
+                        stackLayout.currentIndex = 2
+                        console.log("点击了 FFplay")
                     }
-
-                    // 👇 自定义内容：图标 + 文字
-                    contentItem: Row {
-                        anchors.fill: parent
-                        anchors.leftMargin: 10
-                        spacing: 40
-                        height: parent.height   // 👈 让 Row 和按钮一样高
-
-                        Image {
-                            source: "qrc:/res/ffplay.png"
-                            width: 24
-                            height: 24
-                            fillMode: Image.PreserveAspectFit
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-
-                        Text {
-                            text: navBtn3.text
-                            font.pixelSize: 18
-                            font.family: "Microsoft YaHei"
-                            color: "#000000"
-                            verticalAlignment: Text.AlignVCenter
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-
-                    onClicked: console.log("点击了 首页")
                 }
 
                 // ffmpeg
-                Button {
-                    id: navBtn4
-                    text: "ffmpeg"
-                    width: parent.width
-                    Layout.fillWidth: true
-                    implicitHeight: 40
-                    checkable: true
-                    autoExclusive: true
-                    focusPolicy: Qt.StrongFocus
-
-
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: 6
-                        border.width: 0
-                        color: navBtn4.down ? "#c0d8ff"
-                             : navBtn4.checked ? "#d0e8ff"
-                             : navBtn4.hovered ? "#e0e0e0"
-                                                : "transparent"
+                NavButton {
+                    labelText: "FFmpeg"
+                    iconSource: "qrc:/res/ffmpeg.png"
+                    onClicked: {
+                        stackLayout.currentIndex = 3
+                        console.log("点击了 ffmpeg")
                     }
-
-                    // 👇 自定义内容：图标 + 文字
-                    contentItem: Row {
-                        anchors.fill: parent
-                        anchors.leftMargin: 10
-                        spacing: 40
-                        height: parent.height   // 👈 让 Row 和按钮一样高
-
-                        Image {
-                            source: "qrc:/res/ffmpeg.png"
-                            width: 24
-                            height: 24
-                            fillMode: Image.PreserveAspectFit
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-
-                        Text {
-                            text: navBtn4.text
-                            font.pixelSize: 18
-                            font.family: "Microsoft YaHei"
-                            color: "#000000"
-                            verticalAlignment: Text.AlignVCenter
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-
-                    onClicked: console.log("点击了 首页")
                 }
 
                 // 关于
-                Button {
-                    id: navBtn5
-                    text: "关于"
-                    width: parent.width
-                    Layout.fillWidth: true
-                    implicitHeight: 40
-                    checkable: true
-                    autoExclusive: true
-                    focusPolicy: Qt.StrongFocus
-
-
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: 6
-                        border.width: 0
-                        color: navBtn5.down ? "#c0d8ff"
-                             : navBtn5.checked ? "#d0e8ff"
-                             : navBtn5.hovered ? "#e0e0e0"
-                                                : "transparent"
+                NavButton {
+                    labelText: "关于"
+                    iconSource: "qrc:/res/about.png"
+                    onClicked: {
+                        stackLayout.currentIndex = 4
+                        console.log("点击了 关于")
                     }
-
-                    // 👇 自定义内容：图标 + 文字
-                    contentItem: Row {
-                        anchors.fill: parent
-                        anchors.leftMargin: 10
-                        spacing: 40
-                        height: parent.height   // 👈 让 Row 和按钮一样高
-
-                        Image {
-                            source: "qrc:/res/about.png"
-                            width: 24
-                            height: 24
-                            fillMode: Image.PreserveAspectFit
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-
-                        Text {
-                            text: navBtn5.text
-                            font.pixelSize: 18
-                            font.family: "Microsoft YaHei"
-                            color: "#000000"
-                            verticalAlignment: Text.AlignVCenter
-                            anchors.verticalCenter: parent.verticalCenter
-                        }
-                    }
-
-                    onClicked: console.log("点击了 关于")
                 }
             }
         }
 
         // 右侧主界面（占位）
-        Rectangle {
-            Layout.fillWidth: true
+        StackLayout {
+            id: stackLayout
+            // 只在 父容器是 Layout 系列（RowLayout、ColumnLayout、GridLayout …） 时才生效。告诉外层布局（比如 RowLayout 或 ColumnLayout）：“我希望高度尽量填满父容器”。
             Layout.fillHeight: true
-            color: "#ffffff"
+            Layout.fillWidth: true
 
-            Text {
-                anchors.centerIn: parent
-                text: "右侧内容区"
-                font.pixelSize: 24
-                color: "#666"
+            // 页面0
+            Rectangle {
+                color: "#ffffff"
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                Text {
+                    // 将文字的中心锚点对齐Rectangle
+                    anchors.centerIn: parent
+                    text: "这是首页"
+                    font.pixelSize: 24
+                }
+            }
+
+            // 页面1
+            Rectangle {
+                color: "#ffffff"
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                // Text {
+                //     anchors.centerIn: parent
+                //     text: "这是ffprobe"
+                //     font.pixelSize: 24
+                // }
+                ColumnLayout {
+                    id: scrollView
+                    anchors.fill: parent
+                    spacing: 20
+
+                    Rectangle {
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: 1
+                        color: "lightblue"
+                    }
+
+                    ScrollView {
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: 2
+
+                        // ColumnLayout {
+                        //     anchors.fill: parent
+                        //     anchors.margins: 10
+                        //     spacing: 10
+                        Column {
+                            width: scrollView.width - 20     // 保证左右留边
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            spacing: 10
+                            ProxyCard { title: "基本用法"; value: 100 }
+                        }
+                    }
+                }
+            }
+
+            // 页面2
+            Rectangle {
+                color: "#ffffff"
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "这是ffplay"
+                    font.pixelSize: 24
+                }
+            }
+
+            // 页面3
+            Rectangle {
+                color: "#ffffff"
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "这是ffmpeg"
+                    font.pixelSize: 24
+                }
+            }
+
+            // 页面4
+            Rectangle {
+                color: "#ffffff"
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "这是关于"
+                    font.pixelSize: 24
+                }
             }
         }
+        // Rectangle {
+        //     Layout.fillWidth: true
+        //     Layout.fillHeight: true
+        //     color: "#ffffff"
+
+        //     Column {
+        //         anchors.fill: parent
+        //         anchors.margins: 20
+        //         spacing: 20
+
+        //         // 上半部分
+        //         Rectangle {
+        //             width: parent.width
+        //             height: 120
+        //             radius: 8
+        //             color: "#f5f5f5"
+
+        //             Text {
+        //                 anchors.centerIn: parent
+        //                 text: "上半部分（比如状态、标题等）"
+        //                 font.pixelSize: 20
+        //                 color: "#333"
+        //             }
+        //         }
+
+        //         // 下半部分：可滚动的卡片列表
+        //         ScrollView {
+        //             width: parent.width
+        //             Layout.fillHeight: true
+
+        //             Column {
+        //                 width: parent.width
+        //                 spacing: 10
+
+        //                 ProxyCard { title: "基本用法"; value: 100 }
+        //                 ProxyCard { title: "日志与输出控制"; value: 101 }
+        //                 ProxyCard { title: "信息展示类别"; value: 102 }
+        //                 ProxyCard { title: "输出格式控制"; value: 102 }
+        //                 ProxyCard { title: "选择性过滤"; value: 102 }
+        //                 ProxyCard { title: "统计与分析"; value: 102 }
+        //                 ProxyCard { title: "区间与采样"; value: 102 }
+        //                 ProxyCard { title: "进阶格式化"; value: 102 }
+        //                 ProxyCard { title: "其他选项"; value: 102 }
+        //             }
+        //         }
+        //     }
+        // }
     }
 }
 
-// import QtQuick 2.15
-// import QtQuick.Controls 2.15
-// import QtQuick.Controls.Material 2.15
-
-// ApplicationWindow {
-//     visible: true
-//     width: 400
-//     height: 300
-
-//     Material.theme: Material.Light
-//     Material.accent: Material.Blue
-
-//     Button {
-//         text: "首页"
-//         id:btn
-//         focusPolicy: Qt.StrongFocus   // 可以保留键盘焦点
-
-//         background: Rectangle {
-//             radius: 4
-//             color: btn.down ? "#cccccc"
-//                  : btn.hovered ? "#eeeeee"
-//                                     : "#ffffff"
-//             // ❌ 不绘制 focus ring
-//         }
-//     }
-// }

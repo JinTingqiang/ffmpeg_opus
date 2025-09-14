@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="/MyQmlApp/">
     <file alias="qml/main.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/main.qml</file>
+    <file alias="qml/ProxyCard.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/ProxyCard.qml</file>
+    <file alias="qml/NavButton.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/NavButton.qml</file>
   </qresource>
 </RCC>
 
