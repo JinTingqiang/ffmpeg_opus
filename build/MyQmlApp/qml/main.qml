@@ -159,6 +159,9 @@ ApplicationWindow {
                         Layout.fillWidth: true
                         Layout.preferredHeight: 2
 
+                        // 使用自定义滚动条
+                        ScrollBar.vertical: RoundScrollBar {}
+
                         // ColumnLayout {
                         //     anchors.fill: parent
                         //     anchors.margins: 10
@@ -168,6 +171,14 @@ ApplicationWindow {
                             anchors.horizontalCenter: parent.horizontalCenter
                             spacing: 10
                             ProxyCard { title: "基本用法"; value: 100 }
+                            ProxyCard { title: "日志与输出控制"; value: 101 }
+                            ProxyCard { title: "信息展示类别"; value: 102 }
+                            ProxyCard { title: "输出格式控制"; value: 102 }
+                            ProxyCard { title: "选择性过滤"; value: 102 }
+                            ProxyCard { title: "统计与分析"; value: 102 }
+                            ProxyCard { title: "区间与采样"; value: 102 }
+                            ProxyCard { title: "进阶格式化"; value: 102 }
+                            ProxyCard { title: "其他选项"; value: 102 }
                         }
                     }
                 }

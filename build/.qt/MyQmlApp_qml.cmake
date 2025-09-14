@@ -8,6 +8,8 @@ set(src_and_dest_list
     "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp/qml/ProxyCard.qml"
     "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/NavButton.qml"
     "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp/qml/NavButton.qml"
+    "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/RoundScrollBar.qml"
+    "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/MyQmlApp/qml/RoundScrollBar.qml"
 
 )
 set(timestamp_file "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/build/.qt/MyQmlApp_qml.txt")

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 338,
+                        "durationMicroseconds": 275,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 143,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "focusPolicy",
                         "line": 17
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 701,
+                        "durationMicroseconds": 489,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 32
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 29
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 39
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 47
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "source",
                         "line": 49
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 122,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 48
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 57
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 19,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 59
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 58

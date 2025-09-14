@@ -3,6 +3,7 @@
     <file alias="qml/main.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/main.qml</file>
     <file alias="qml/ProxyCard.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/ProxyCard.qml</file>
     <file alias="qml/NavButton.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/NavButton.qml</file>
+    <file alias="qml/RoundScrollBar.qml">C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/RoundScrollBar.qml</file>
   </qresource>
 </RCC>
 
