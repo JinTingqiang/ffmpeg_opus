@@ -4,5 +4,7 @@ prefer :/MyQmlApp/
 ProxyCard 1.0 qml/ProxyCard.qml
 NavButton 1.0 qml/NavButton.qml
 RoundScrollBar 1.0 qml/RoundScrollBar.qml
+Page1 1.0 qml/Page1.qml
+Page2 1.0 qml/Page2.qml
 depends QtQuick
 

@@ -6,50 +6,50 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 285,
+                        "durationMicroseconds": 294,
                         "errorMessage": "",
                         "functionName": "orientation",
-                        "line": 45
+                        "line": 46
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 125,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 10
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 18,
-                        "durationMicroseconds": 67,
-                        "errorMessage": "",
-                        "functionName": "top",
                         "line": 11
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 60,
+                        "column": 18,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
-                        "functionName": "bottom",
+                        "functionName": "top",
                         "line": 12
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 25
+                        "line": 26
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 206,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 26
+                        "line": 27
                     },
                     {
                         "codegenSuccessful": true,
@@ -57,39 +57,39 @@
                         "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 29
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 17,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "height",
                         "line": 30
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 317,
+                        "durationMicroseconds": 376,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 35
+                        "line": 36
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 38
+                        "line": 39
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 39
+                        "line": 40
                     }
                 ],
                 "filePath": "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/RoundScrollBar.qml"

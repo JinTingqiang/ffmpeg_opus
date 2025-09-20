@@ -40,6 +40,8 @@ qt_add_qml_module(MyQmlApp
     qml/ProxyCard.qml
     qml/NavButton.qml
     qml/RoundScrollBar.qml
+    QML_FILES qml/Page1.qml
+    QML_FILES qml/Page2.qml
 )
 
 target_link_libraries(MyQmlApp

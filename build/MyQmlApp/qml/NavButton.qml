@@ -1,4 +1,4 @@
-// NavButton.qml
+// 图标+文件按钮组件
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15

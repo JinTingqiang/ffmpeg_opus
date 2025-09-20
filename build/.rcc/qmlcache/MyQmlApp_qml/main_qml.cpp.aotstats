@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 232,
+                        "durationMicroseconds": 233,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 15
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 25
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 31
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 50,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 34
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 40
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 52,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 41
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 52,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 50
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 55
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 187,
+                        "durationMicroseconds": 172,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 65
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 143,
+                        "durationMicroseconds": 159,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 75
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 224,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 85
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 196,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 95
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 195,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 105
@@ -110,58 +110,26 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 128
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 43,
+                        "column": 39,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
-                        "functionName": "fill",
+                        "functionName": "centerIn",
                         "line": 147
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 113,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 170
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 55,
-                        "durationMicroseconds": 84,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 171
-                    },
-                    {
-                        "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 194
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 35,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 207
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 220
+                        "line": 160
                     }
                 ],
                 "filePath": "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/main.qml"

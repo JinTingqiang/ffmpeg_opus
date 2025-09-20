@@ -1,0 +1,220 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 213,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 53,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 78,
+                        "durationMicroseconds": 206,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 160,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 224,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 261,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 222,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 83
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 151,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 108
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 148,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 167,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot load property length from (component in C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml)::options with type QVariant.",
+                        "functionName": "value",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 214,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "options",
+                        "line": 135
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 182,
+                        "errorMessage": "",
+                        "functionName": "paramTips",
+                        "line": 136
+                    }
+                ],
+                "filePath": "C:/Users/jintingqiang/Desktop/git/ffmpeg_opus/qml/Page1.qml"
+            }
+        ],
+        "moduleId": "MyQmlApp(MyQmlApp)"
+    }
+]

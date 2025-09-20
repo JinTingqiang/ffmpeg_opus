@@ -33,6 +33,20 @@ namespace _0x5f_MyQmlApp_qml_RoundScrollBar_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_MyQmlApp_qml_Page1_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_MyQmlApp_qml_Page2_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +65,8 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/MyQmlApp/qml/ProxyCard.qml"), &QmlCacheGeneratedCode::_0x5f_MyQmlApp_qml_ProxyCard_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/MyQmlApp/qml/NavButton.qml"), &QmlCacheGeneratedCode::_0x5f_MyQmlApp_qml_NavButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/MyQmlApp/qml/RoundScrollBar.qml"), &QmlCacheGeneratedCode::_0x5f_MyQmlApp_qml_RoundScrollBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/MyQmlApp/qml/Page1.qml"), &QmlCacheGeneratedCode::_0x5f_MyQmlApp_qml_Page1_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/MyQmlApp/qml/Page2.qml"), &QmlCacheGeneratedCode::_0x5f_MyQmlApp_qml_Page2_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

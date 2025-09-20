@@ -1,3 +1,4 @@
+// 滚动条组件
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 // Basic 样式是专为自定义设计的，完全支持修改 background 和 contentItem 属性，避免警告
